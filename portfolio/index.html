@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D1AM0ND5 Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>D1AM0ND5</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a 3D game developer on Unity and worked for 3 years on Roblox Studio as well.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C#</li>
+      <li>Lua</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="images/cover.jpg" alt="Run Cam Title Screen" />
+      <h3>Run Cam</h3>
+      <p>A horror game project developed in Unity and Roblox Studio.</p>
+      <button onclick="showPopup()">More Info</button>
+      <a href="downloads/RunCam.zip" download class="download-btn">Download Game</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:diamondworking36@gmail.com">diamondworking36@gmail.com</a></p>
+    <p>Discord: infinitygamer</p>
+  </section>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>Run Cam</h2>
+      <p>Run Cam is a chilling horror game where players must survive terrifying encounters in a dark, atmospheric forest. Built using Unity and Roblox Studio.</p>
+      <div class="gallery">
+        <img src="images/scene1.jpg" alt="Scene 1" />
+        <img src="images/scene2.jpg" alt="Scene 2" />
+        <img src="images/scene3.jpg" alt="Scene 3" />
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 D1AM0ND5. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
